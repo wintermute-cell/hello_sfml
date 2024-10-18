@@ -4,11 +4,6 @@ This is a basic example for `SFML` similar to what `raylib` provides on their
 `README.md`. It creates a window and draws the text `"Congrats! You created your
 first SFML window!"` in the middle of the screen.
 
-Using the `cmake` workflow to compile is optional, you only need to properly
-link to `sfml`.
-
-Here is the code from `main.cpp`:
-
 ```cpp
 #include <iostream>
 #include "SFML/Graphics.hpp"
@@ -42,6 +37,10 @@ int main() {
 ```
 
 ## Compiling and running
+
+Using the `cmake` workflow to compile is optional, you only need to properly
+link to `sfml`.
+
 ```bash
 mkdir build && cd build
 cmake ..
